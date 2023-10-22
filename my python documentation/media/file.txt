@@ -1,0 +1,2 @@
+this file object in python .
+file object in python means reading any kind of file or copy any kind of file throught python

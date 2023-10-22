@@ -1,0 +1,14 @@
+_init__(self, [args]): Initializes the object's attributes.
+__str__(self): Returns the string representation of the object.
+__repr__(self): Returns the official string representation of the object.
+__add__(self, other): Defines the behavior of the + operator on the object.
+__len__(self): Returns the length of the object.
+__getitem__(self, key): Returns the item at the specified index or key.
+__setitem__(self, key, value): Sets the value of an item at a specified index or key.
+__delitem__(self, key): Deletes an item at a specified index or key.
+__iter__(self): Returns an iterator for the object.
+__contains__(self, item): Returns True if the item is in the object, False otherwise.
+__call__(self, [args]): Allows the object to be called like a function.
+__getattr__(self, name): Returns the value of an attribute if it exists.
+__setattr__(self, name, value): Sets the value of an attribute.
+__delattr__(self, name): Deletes an attribute.
