@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
 
         # Web engine view
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('http://google.com'))
+        self.browser.setUrl(QUrl('https://queendahyun.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
