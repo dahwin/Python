@@ -11,13 +11,15 @@ class Widgets(QWidget):
         self.setWindowTitle("Dubu")
         label = QLabel("Fullname:")
         self.line_edit = QLineEdit()
+        self.line_edit.setText("I love dahyun")  # Add default text here
+        print("Default text: ", self.line_edit.text())  # Print default text here
         # self.line_edit.textChanged.connect(self.text_change)
         # self.line_edit.cursorPositionChanged.connect(self.cursor_position_changed)
         # self.line_edit.editingFinished.connect(self.editing_finished)
         # self.line_edit.returnPressed.connect(self.return_pressed)
         # self.line_edit.selectionChanged.connect(self.selection_changed)
 
-        self.line_edit.textEdited.connect(self.text_edited)
+        self.line_edit.textEdited.connect(self.text_edited)            
 
 
         button = QPushButton("Grab Data")
